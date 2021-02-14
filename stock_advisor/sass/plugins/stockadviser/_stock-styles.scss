@@ -1,0 +1,15 @@
+
+.stock_recommendation .entry-title {
+    display: flex;
+}
+
+.stock-rec-archive-ticker {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #485cc7;
+    color: #fff;
+    padding: .125em .5em;
+    margin: 0 1em;
+}
