@@ -1,0 +1,202 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+
+ /* Main Content */
+
+.content-sidebar {
+   display: flex;
+   flex-direction: column;
+}
+
+.mfsa-company-widget,
+.stock-rec-widget {
+   padding: 0 0.5em;
+}
+
+.single-stock_recommendation .content-sidebar {
+   flex-direction: column-reverse;
+}
+
+
+ @media screen and (min-width: 36em) {
+
+   .content-sidebar,
+   .single-stock_recommendation .content-sidebar {
+      flex-direction: row-reverse;
+   }
+
+
+
+
+   .mfsa-company-widget,
+   .stock-rec-widget {
+      max-width: 30%;
+   }
+
+   .content-sidebar .content-container {
+      width: 70%;
+      padding: 0 1em;
+   }
+
+ }
+
+ /* .author-container {
+     display: flex;
+ } */
+
+ .breadcrumb-stock-ticker-list {
+    margin: 0;
+    list-style: none;
+    padding-left: 1em;
+ }
+
+ .breadcrumb-stock-ticker-item {
+    background: #485cc7;
+    padding: 4px;
+    font-size: 10px;
+    border-radius: 8px;
+    border: solid 2px #2d3b8a;
+    letter-spacing: .25px;
+ }
+
+ .breadcrumb-stock-ticker-item a {
+    color: #fff;
+    text-decoration: none;
+ }
+
+ /* Widget Styles */
+
+ /* Stock Rec Widget */
+ .stock-rec-widget {
+   font-size: 12px;
+ }
+
+ .stock-rec-widget img {
+    display: block;
+    margin: auto;
+ }
+
+ .stock-rec-widget .company-title {
+   margin: 1em 0;
+   font-weight: 600;
+ }
+
+ .stock-rec-widget .company-subheader {
+   font-size: .85em;
+   font-style: italic;
+ }
+
+ .stock-rec-widget .company-description {
+   margin: 1em 0;
+   font-size: .9em;
+   line-height: 1.5;
+ }
+ /* End of Stock Rec Widget */
+
+
+ .financial-data-inner, .stock-rec-widget-inner {
+   background: #ccc;
+   border: solid 1.5px #d7d7d7;
+   padding: 1.5em;
+ }
+
+
+ /* Company Financial Data Widget */
+
+
+ .financial-data-widget {
+   text-align: center;
+   margin-top: 2.5em;
+   /* background: #ccc; */
+   /* border: solid 1.5px #d7d7d7; */
+ }
+
+ .financial-data-inner {
+   background: #ccc;
+   border: solid 1.5px #d7d7d7;
+   padding: 1.5em;
+ }
+
+ .financial-data-inner-title {
+    margin-bottom: 1.5em;
+ }
+
+ .financial-data-inner p {
+    text-align: left;
+    margin: 0.25em 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .25px;
+    font-weight: 600;
+ }
+
+ .financial-data-inner p .label {
+    font-weight: 300;
+    font-size: 11.5px;
+ }
+
+ /* End of Company Financial Data Widget */
+
+ /* Single Company Style */
+
+ .single-company .breadcrumb-stock-ticker-list {
+   margin: 0;
+   list-style: none;
+   padding-left: 0;
+}
+
+.single-company .post-title {
+   margin-bottom: 0;
+}
+
+.single-company  .breadcrumb-stock-ticker-item {
+   background: #485cc7;
+   padding: 4px;
+   font-size: 10px;
+   border-radius: 8px;
+   border: solid 2px #2d3b8a;
+   letter-spacing: .25px;
+   display: block;
+   max-width: 60px;
+   text-align: center;
+}
+
+.single-company  .breadcrumb-stock-ticker-item a {
+   color: #fff;
+}
+
+.single-company-content {
+   margin: 2em 0;
+}
+
+.company-logo-img {
+   max-width: 100px;
+   margin-right: 1.25em;
+}
+
+.single-company-content .company-description {
+   margin: 2em 0;
+}
+ 
+ .single-company-content .company-logo {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+ }
+
+ 
+/* Content Page SubLinks */
+
+.content-page-subpage-container ul {
+   margin: 1em 0;
+   padding: 0;
+   list-style: none;
+}
+
+.content-page-subpage-container ul li {
+   margin: .75em 0;
+}
