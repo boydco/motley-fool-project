@@ -1,6 +1,7 @@
 
-This is Motley Fool Stock Advisor Theme - Based on Underscores by Automattic
-By Colin Boyd - For Motley Fool Interview Project
+# Motley Fool Stock Advisor Theme - Based on Underscores by Automattic
+
+# By Colin Boyd - For Motley Fool Interview Project
 
 
 Installation
